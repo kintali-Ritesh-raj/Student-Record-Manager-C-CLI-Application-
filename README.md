@@ -1,36 +1,36 @@
-# 📘 Student Record Manager (C++ CLI Application)
+# 📘 Student Record Manager (C++)
 
-The **Student Record Manager** is a simple and beginner-friendly C++ console application that allows you to store, view, search, and delete student records.  
-All data is saved in a local text file (`records.txt`), so your records remain even after closing the program.
+The Student Record Manager is a simple C++ console application that allows users to add, list, search, and delete student records. The program stores all data in a text file (`records.txt`) so the records remain available even after closing the app. This project demonstrates file handling, structs, vectors, and menu-driven command-line programming.
 
-This project demonstrates:
-- File handling in C++  
-- Working with structs and vectors  
-- Parsing and writing formatted text  
-- Building menu-based CLI applications  
+---
+
+## 📝 Description
+
+A lightweight menu-based C++ application that manages student records using persistent text storage. Users can add a student's ID, Name, and GPA, view all records in a formatted table, search by ID, and delete specific entries. Ideal for learning C++ file I/O and basic data management.
 
 ---
 
 ## ✅ Features
 
-- Add a student (ID, Name, GPA)  
-- List all stored students in a neat table  
-- Search for a student by ID  
+- Add student record (ID, Name, GPA)  
+- List all stored records  
+- Search for records by ID  
 - Delete a student by ID  
-- Persistent storage using `records.txt`  
-- Simple and clean command-line interface  
+- Data saved in `records.txt`  
+- Clean, easy-to-use CLI interface  
 
 ---
 
-## 🧠 Technologies Used
+## 🛠️ Technologies Used
 
-- **C++ (C++11)**  
-- File Handling (`ifstream`, `ofstream`)  
+- **C++11**  
+- File I/O (`ifstream`, `ofstream`)  
 - STL (`vector`, `string`, `iomanip`)  
 
 ---
 
 ## ▶️ How to Compile & Run
 
-### **Compile**
+### Compile
 ```bash
+g++ -std=c++11 main.cpp -o student_manager
